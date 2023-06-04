@@ -1,0 +1,836 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.secrets h2, .blog h2, .chef h2, .name h3, .mid h1, .hero2 h3, .herosection h3{
+    font-family: 'Dancing Script', cursive; 
+}
+img{
+    width: 100%;
+}
+.container header .nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1a1add;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 999;
+    color: #ffffff;
+    align-items: center;
+    padding: 10px 15px;
+}
+.container header .nav a{
+    color: #e3e3e381;
+    text-decoration: none;
+}
+.container header .nav a h2{
+    color: #ffffff;
+}
+.herosection {
+    width: 100%;
+    height: 100vh;
+    padding: 90% 12%;
+    animation: alt 5s infinite ease-in;
+    margin: 0% auto;
+}
+@keyframes alt {
+    0%{
+        background: linear-gradient(rgba(6, 6, 6, 0.632), rgba(6, 6, 6, 0.8)),  url(../Images/bg_1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background:linear-gradient(rgba(6, 6, 6, 0.632), rgba(6, 6, 6, 0.8)), url(../Images/bg_2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.container .herosection{
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+.container .herosection h4{
+    border: 1px solid white;
+    margin: 0px 10px;
+    padding: 8px 0px;
+    letter-spacing: 5px;
+}
+.container .herosection h3{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.container .herosection p{
+    font-size: 25px;
+    color: #ff0000;
+    letter-spacing: 3px;
+}
+.taskbar{
+    display: none;
+}
+.top{
+    display: none;
+}
+.main .form form{
+    background-color: #ff0000;
+    align-items: center;
+    padding: 15px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.main .form form input, .form form select{
+    width: 250px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    outline: none;
+}
+.form form button{
+    width: 250px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 1px solid #ffffff;
+}
+.form form input::placeholder{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.form form #guest{
+    padding: 10px 5px;
+}
+.form form input[type="date"]{
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.form form input[type="time"]{
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.form form button:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.hero2{
+    background: url(../Images/about.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    width: 100%;
+    background-position-y: 30px;
+    background-size: cover;
+    background-position: right;
+}
+.hero2 h3{
+    color: #ff0000;
+    font-size: 250%;
+}
+.hero2 h3 p{
+    color: #000000;
+    font-size: 50%;
+    padding-bottom: 20px;
+}
+.hero2 p{
+    color: #282626af;
+}
+.hero3{
+    background:linear-gradient(rgba(48, 45, 45, 0.088), rgba(0, 0, 0, 0.838)), url(../Images/bg_3.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 150px 20px;
+    letter-spacing: 2px;
+}
+.hero3 h4{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid{
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+.mid .mid1 .midlogo{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.mid .mid1 .midlogo .fa-hamburger, .mid .mid1 .midlogo .fa-pizza-slice, .fa-cookie-bite, .fa-birthday-cake, .fa-cookie, .fa-glass-cheers, .fa-birthday-cake, .fa-utensils, .fa-coffee, .fa-ice-cream{
+    font-size: 30px;
+    color: #3e3a3a46;
+}
+.mid .mid1:hover{
+    border-color: #ff0000;
+}
+.mid div span{
+    color: #ff0000;
+    font-weight: 900;
+}
+.mid div img{
+    width: 30%;
+    padding: 15px 0px;
+    border-radius: 100%;
+}
+.mid .middiv .mid1 div img{
+    object-fit: cover;
+    object-position: center;
+}
+.mid div img:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.mid h1{
+    text-align: center;
+    color: #ff0000;
+    font-size: 30px;
+}
+.mid h1 p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+.mid .mid1{
+    background-color: #3e3a3a0d;
+    margin-top: 18px;
+    border: 1px dotted #22212186;
+    padding: 0px 10px;
+}
+.mid1 h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.mida{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 0px 0px;
+}
+ .midb, .midc{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px dotted #22212186 ;
+}
+.mid1 .mida, .mid1 .midb, .mid1 .midc:hover{
+    border-color: #ff0000;
+}
+.mida h4,.midb h4,.midc h4{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mida h4 p, .midb h4 p, .midc h4 p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #3e3a3a;
+    font-weight: 400;
+}
+.mid1 .mida span, .mid1 .midb span, .mid1 .midc span{
+    font-weight: 700;
+}
+.customer{
+    background:linear-gradient(rgba(8, 8, 8, 0.673), rgba(0, 0, 0, 0.5)), url(../Images/bg_5.jpg);
+    background-attachment: fixed;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    text-align: center;
+    align-items: center;
+}
+.customer .photo img{
+    width: 30%;
+    border-radius: 100%;
+}
+.customer .photo img:hover{
+    transform: scale(1.1);
+    border: 2px dashed #ff0000;
+}
+.customer .name h3{
+    color: #ff0000;
+    font-size: 250%;
+}
+.customer .name p{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.customer .para p{
+    padding-top: 30px;
+}
+.customer .photo{
+    padding-top: 20px;
+}
+.customer .photo h3{
+    font-weight: 500;
+}
+.customer .photo p{
+    color: #e3e3e394;
+}
+.chef{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #3e3a3a0b;
+}
+.chef div{
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.chef .chef1 img, .chef .chef2 img, .chef .chef3 img, .chef .chef4 img{
+    transition: 2s
+}
+.chef .chef1:hover img, .chef .chef2:hover img, .chef .chef3:hover img, .chef .chef4:hover img{
+    transform: scale(1.07);
+}
+.chef .chefdiv div h3{
+    font-size: 16px;
+}
+.chef div h3, .chef div h5, .chef div p{
+    text-align: left;
+    padding: 5px 28px;
+    line-height: 25px;
+}
+.chef div h5{
+    color: #3e3a3a8e;
+}
+.chef div p{
+    color: #3e3a3ae1;
+    font-size: 19px;
+}
+.chef h2{
+    color: #ff0000;
+    padding-top: 50px;
+    font-size: 37px;
+}
+.chef h2 p{
+    color: #000;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.chef div .fa-bookmark{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+.chef .chef1, .chef .chef2, .chef .chef3, .chef .chef4{
+    box-shadow: 2px 2px 5px gray;
+}
+.hero4img{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.hero4 .hero4img .img1{
+    overflow: hidden;
+}
+.hero4 .hero4img .img1 img{
+    display: block;
+    transition: 2s;
+}
+.hero4 .hero4img .img1:hover img{
+    transform: scale(1.2);
+}
+.hero4 .hero4img .img1:hover{
+    box-shadow: 2px 2px 5px red;}
+.hero4img div img{
+    width: 100%;
+}
+.img1 #pic{
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+}
+.img1{
+    width: 50%;
+}
+.secrets{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 20px;
+}
+.secrets h2{
+    color: #ff0000;
+    padding-left: 35px;
+    font-size: 30px;
+}
+.secrets h5{
+    padding-left: 35px;
+    font-size: 23px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.secrets p{
+    padding: 20px 38px;
+    line-height: 25px;
+    color: #3e3a3a;
+    text-align: left;
+}
+.secrets button{
+    margin-left: 35px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #ff0000;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid #ff0000;
+}
+.secrets button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+}
+.blog{
+    background-color: #676a621e;
+    padding: 50px 20px;
+}
+.blog div{
+    width: 100%;
+    overflow: hidden;
+}
+.blog div img{ 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog .blogdiv .blog1:hover img{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #ff0000;
+}
+.blog h5, .blog p{
+    padding-left: 20px;
+}
+.blog h5{
+    padding: 10px 20px;
+    color: #3e3a3a;
+}
+.blog p{
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.blog button{
+    margin: 20px 0px 30px 20px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #ff0000;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.blog button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+}
+.blog h4 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.blog h2{
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+}
+.blog .blog1 .btnmsg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog .blog1 .btnmsg .fa-sms{
+    font-size: 20px;
+}
+.book-table{
+    background-color: #ff0000;
+    padding: 60px 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+}
+.book-table button{
+    padding: 8px 20px ;
+    margin: 10px 0px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+.book-table button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ffffff;
+}
+.icons{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0px 20px;
+    padding-bottom: 70px;
+}
+.icons .icon1{
+    padding: 20px 0px;
+}
+.icons .icon1 h3{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.icons .icon1 p{
+    font-size: 12px;
+    color: #e3e3e376;
+}
+.icons .icon1 span{
+    display: flex;
+    align-items: center;
+}
+.icons .icon1 span .fa-twitter, .icons .icon1 span .fa-instagram{
+    background-color: #ff0000;
+    font-size: 20px;
+    border-radius: 100%;
+    justify-content: space-between;
+    margin: 15px 5px;
+    padding: 10px;
+}
+.icons .icon1 span .fa-facebook-f{
+    border-radius: 50%;
+    background-color: #ff0000;
+    padding: 12px 15px;
+    margin: 15px 5px;
+    align-items: center;
+}
+.icons .icon1 span .fa-twitter:hover, .icons .icon1 span .fa-facebook-f:hover , .icons .icon1 span .fa-instagram:hover{
+    transform: rotate(360deg);
+    transition: 3s ease;
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ffffff;
+}
+.full .icon2{
+    display: flex;
+    justify-content: space-between;
+}
+.full .icon2 ul{
+    list-style: none;
+    font-size: 14px;
+}
+.full .icon2 .time ul li{
+    color: #e3e3e376;
+}
+.icon3 h3{
+    padding: 30px 0px;
+}
+.icon3 .icon3img .images-6 #pc1{
+    height: 15vh;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+    margin-top: -7px;
+}
+.icon3{
+    overflow: hidden;
+}
+.icon3 .icon3img .img-3{
+    display: flex;
+}
+.icon3 .icon3img .img-3 #insta1{
+    width: 33.3%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -7px;
+}
+.icon3 .icon3img:hover{
+    transform: scale(1.2);
+    transition: 5s;
+    box-shadow: 2px 2px 5px red;
+}
+.icons .news h3{
+    padding: 20px 0px;
+}
+.icons .news p{
+    font-size: 12px;
+    color: #e3e3e376;
+}
+.icons .news input{
+    width: 100%;
+    background-color: #555151b3;
+    text-align: center;
+    padding: 10px 0px;
+    outline: none;
+    border: 1px solid #555151b3;
+    margin-top: 20px;
+}
+.icons .news input::placeholder{
+    color: #e3e3e3e3;
+}
+.icons .news button{
+    width: 100%;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ff0000;
+    margin-top: 5px;
+    padding: 10px 0px;
+}
+.icons .news button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ffffff;
+}
+footer{
+    background-color: #ff0000;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 12px;
+}
+footer:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+@media only screen and (min-width:768px){
+    .container .herosection h4{
+        width: 300px;
+        margin: 0% auto;
+    }
+    .container .form{
+        display: flex;
+        width: 100%;
+    }
+    .container .form form{
+        width: 40%;
+        margin-left: 20px;
+    }
+    .container .form div{
+        width: 55%;
+    }
+    .mid .middiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mid .middiv .mid1{
+        width: 48%;
+    }
+    .container .herosection{
+        padding: 250px 0px;
+    }
+    .customer .photo img{
+        width: 10%;
+    }
+    .chef .chefdiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .chef .chefdiv div{
+        width: 48%;
+    }
+    .hero4{
+        display: flex;
+        width: 100%;
+    }
+    .hero4img{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero4img div{
+        width: 48%;
+    }
+    .blog .blogdiv{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .blog .blogdiv .blog1{
+        width: 32%;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .icons .icon1, .icons .full, .icons .icon3, .icons .news{
+        width: 48%;
+    }
+    .icons .full{
+        padding-top: 40px;
+    }
+    .icon3 .icon3img .images-6{
+        display: flex;
+        height: 95px;
+    }
+    .icon3 .icon3img .images-6 img{
+        height: 100px;
+        width: 33.3%;
+    }
+    .icons .news{
+        padding-top: 10px;
+    }
+    .mid .mid1 .mida h4, .mid .mid1 .midb h4, .mid .mid1 .midc h4{
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+}
+@media only screen and (min-width:992px){
+    .container .herosection{
+        padding: 350px 0px;
+        position: relative;
+    }
+    .container .herosection h3{
+        font-size: 10vh;
+    }
+    .container header .nav{
+        display: none;
+    }
+    .container header .top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: #ffffff;
+    }
+    .container header .top div {
+        width: 50%;
+    }
+    .container header .top div span .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-user{
+        padding-left: 10px;
+    }
+    .container header .top div span .fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-user:hover{
+        color: #ff0000;
+        transform: scale(1.3);
+    }
+    .container header .taskbar{
+        display: flex;
+        justify-content: space-between;
+        width: 96%;
+        position: absolute;
+        margin: 0% auto;
+        text-align: center;
+        margin: 20px;
+        align-items: center;
+        top: 25px;
+        left: 0px;
+        padding: 10px 25px;
+        background-color: #1211116f;
+        position: fixed;
+        z-index: 999;
+    }
+    .container header .taskbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container header .taskbar ul li{
+        list-style: none;
+        padding-left: 20px;
+    }
+    .container header .taskbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .container header .taskbar ul li a:hover{
+        color: #ff0000;
+        border-bottom: 2px solid #ff0000;
+    }
+    .container header .taskbar ul li .active{
+        color: #ff0000;
+        border-bottom: 2px solid #ff0000;
+    }
+    .container .taskbar h1 span{
+        color: #ff0000;
+    }
+    .container .taskbar h1 span:hover{
+        color: #ffffff;
+    }
+    .container .taskbar h1{
+        color: #ffffff;
+    }
+    .container .taskbar h1:hover{
+        color: #ff0000;
+    }
+    .container .form form{
+        padding: 100px 0px;
+    }
+    .container .hero2{
+        padding: 100px 0px 100px 20px;
+    }
+    .container .hero2 p{
+        padding-right: 200px;
+        font-size: 18px;
+    }
+    .container .hero3 h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .container .hero3{
+        background-size: 150% 130%;
+    }
+    .container .mid .middiv{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container .mid .middiv .mid1{
+        width: 32%;
+    }
+    .customer .photo img{
+        width: 10%;
+    }
+    .chef .chefdiv{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .chef .chefdiv div{
+        width: 23.5%;
+    }
+    .secrets h2{
+        font-size: 35px;
+    }
+    .blog h2{
+        font-size: 35px;
+    }
+    .blog .blogdiv div img{
+        height: 250px
+    }
+    .icons{
+        display: flex;
+    }
+    .icons .icon1, .icons .full, .icons .icon3, .icons .news{
+        width: 23.5%;
+    }
+    .icons .icon3, .icons .news{
+        margin-top: 10px;
+    }
+    .icons .icon3 .images-6 #pc1{
+        object-fit: cover;
+    }
+}
+@media only screen and (min-width:1440px){
+    .container .form form{
+        width: 25%;
+        margin-left: 80px;
+    }
+    .container .form .hero2{
+        background-position-x: -90px;
+    }
+    .mid .mid1 .mida h4, .mid .mid1 .midb h4, .mid .mid1 .midc h4{
+        align-items: center;
+        padding: 0px 55px;
+    }
+}

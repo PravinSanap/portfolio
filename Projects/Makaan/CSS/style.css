@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body h1{
+    font-family: 'Unbounded', cursive;
+}
+#nextbtn{
+    margin-top: 20px;
+    height: 50px;
+}
+#mydiv{
+    clip-path: polygon(0% 100%, 0% 0%, 25% 1%, 57% 100%);
+}
+.navbar-brand:hover, .navbar-brand:hover #navbaricon{
+    color: #198754 !important;
+    transition: 1s ease;
+    border-color: #198754 !important;
+}
+#navbarNavAltMarkup .navbar-nav .nav-link:hover{
+    background-color: #198754  !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.room1 .content1, .room2 .content2, .room3 .content3, .room4 .content4, .room5 .content5, .room6 .content6, .room7 .content7, .room8 .content8{
+    border: 2px dashed #198754 !important;
+}
+.room1 .content1:hover, .room2 .content2:hover, .room3 .content3:hover, .room4 .content4:hover, .room5 .content5:hover, .room6 .content6:hover, .room7 .content7:hover, .room8 .content8:hover{
+    background-color: #198754 !important;
+    color: #ffffff !important;
+    transition: 1s ease;
+}
+.room8 .content8 .fa-vihara, .fa-building, .fa-hand-holding, .fa-hotel, .fa-laptop-house, .fa-city, .fa-warehouse, .fa-store-alt, .fa-hand-holding-usd{
+    background-color: #ffffff;
+    border: 2px dashed #198754 !important;
+}
+.room1 .content1:hover p, .room2 .content2:hover p, .room3 .content3:hover p, .room4 .content4:hover p, .room5 .content5:hover p, .room6 .content6:hover p, .room7 .content7:hover p, .room8 .content8:hover p{
+    color: #ffffff !important;
+    transition: 1s ease;
+}
+#propbtn{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 20px;
+}
+.foot{
+    border-top: 2px dashed #198754;
+}
+.property1 .content1{
+    overflow: hidden;
+}
+.property1:hover{
+    box-shadow: 2px 2px 15px #198754 !important;
+    transition: 1s ease;
+    color: #198754;
+}
+.property1:hover img{
+    transform: scale(1.2) !important;
+    transition: 1s ease;
+}
+.property1 .content2 h5:hover{
+    color:#198754 ;
+}
+#propbtn:hover{
+    background-color:  #198754 !important;
+    color: #ffffff !important;
+    transition: 1s ease;
+}
+.contact{
+    border: 2px dashed #198754;
+}
+#border{
+    border: 2px dashed #198754;
+}
+#footer{
+    background-color: #198754;
+}
+#mynav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#inputbtn::placeholder{
+    color: #ffffff;
+}
+.contactbg:hover{
+    background-color: #198754 !important;
+    transition: 1s ease;
+}
+.contactbg .content h1{
+    color: #198754 !important;
+}
+.agent1:hover{
+    color: #198754;
+    transition: 1s ease;
+    transform: translate(0px, -20px) !important;
+    box-shadow: 2px 2px 5px #198754 !important;
+}
+.agent1:hover .icons i{
+    background-color: #198754 !important;
+    color: #ffffff !important;
+    transform: rotate(360deg);
+    transition: 1s ease;
+}
+#background:hover{
+    background-color: #198754 !important;
+    transition: 1s ease;
+}
+#background:hover .text{
+    color: #198754 !important;
+    transition: 1s ease;
+}
+#footicon:hover{
+    background-color: #ffffff;
+    color: #198754;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+.photos:hover img{
+    border-color: #198754 !important;
+    transition: 1s ease;
+}
+.text-decoration-none:hover{
+    background-color: #ffffff;
+    color: #198754 !important;
+    transition: 1s ease;
+}
+.upicon{
+    position: absolute;
+    right: 20px;
+    bottom: 65px;
+    position: fixed;
+    z-index: 999;
+}
+.upicon:hover{
+    transition: 1s ease;
+    transform: rotate(360deg) !important;
+}
+.propertybtn:hover{
+    color: #198754 !important;
+    background-color: #ffffff !important;
+    transition: 1s !important;
+}
+
+/* /// owl carousel css //// */
+.owl-nav{
+    color: red !important;
+    font-size: 25px !important;
+  }
+  .owl-nav .owl-prev{
+    color: #ffffff !important;
+    background-color: #198754 !important;
+    border: 1px solid #fff !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+    position: absolute;
+    top: 40% !important;
+    left: -25px !important;
+  }
+  .owl-nav .owl-next{
+    color: #ffffff !important;
+    background-color: #198754 !important;
+    border: 1px solid #fff !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+    position: absolute;
+    top: 40% !important;
+    right: -25px !important;
+  }
+  .owl-nav .owl-prev:hover, .owl-nav .owl-next:hover{
+    background-color: #0d6efd !important;
+    color: #fff !important;
+    transition: 1s ease;
+    transform: rotate(360deg);
+  }
+
+
+/* ///// media Query ////// */
+@media only screen and (max-width:1200px){
+    #about .img img{
+        width: 85%;
+    }
+}
+
+/* ///scroll bar css /// */
+::-webkit-scrollbar{
+    width: 0.8rem;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: transparent !important;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #198754;
+    border-radius: 1rem;
+    border: 3.5px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #02ff28 !important;
+  }
+
+/* ////////// agent img hover effect  /////// */
+
+  .box{
+    /* width: 1200px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-gap: 15px; */
+    margin: 0 auto;
+  }
+  .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+  }
+  .card:before,
+  .card:after
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+  .card:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card .imgBx{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+  }
+  
+  .card:hover .imgBx
+  {
+    bottom: 80px;
+  }
+
+  .card .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .card .details{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      height: 60px;
+      text-align: center;
+  }
+
+  .card .details h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 20px;
+   color: #777;
+   text-transform: uppercase;
+  } 
+
+  .card .details h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #198754;
+  display: block;
+  margin-top: 5px;
+   } 

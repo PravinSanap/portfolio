@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== Favicon ========================-->
+    <link rel="icon" href="Images/fav-icon.png" type="image/png">
+
+    <title>PravinS | Portfolio</title>
+
+    <!--=================== Bootstrap cdn ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+    <!--=================== style CSS ====================-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--=================== Font Aweosome Cdn ====================-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <!--=================== AOS library cdn ====================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ///// cursor html ///// -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+
+
+    <!--===================== Header =====================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#home" class="header-logo-a"><img src="Images/pravin-logo.gif" alt="Image not found"
+                    class="img-fluid header-logo"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fas fa-home nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="far fa-user nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="fas fa-user-graduate nav__icon"></i>
+                            Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-fire nav__icon"></i>
+                            Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-laptop-code nav__icon"></i>
+                            Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-phone-alt nav__icon"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <span class="theme__toggle">
+                    <i class="fas fa-moon" id="theme-toggle"></i>
+                </span>
+                <span class="nav__toggle">
+                    <i id="nav-toggle" class="fas fa-stream"></i>
+                </span>
+            </div>
+        </nav>
+    </header> <!--=================== End of header  ====================-->
+
+    <!--===================== Main =====================-->
+    <main class="main">
+        <!--===================== Home =====================-->
+        <section id="home" class="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h1 class="home__title">
+                                    <span class="fw-bold" data-aos="fade-down" data-aos-duration="1300">HELLO.</span>
+                                    <br>
+                                    <p class="myName fw-bold" data-aos="fade-up" data-aos-duration="1000">I'm <br>
+                                        <span>PRAVIN SANAP</span>
+                                    </p>
+                                </h1>
+                                <div class="hero-icon d-flex flex-wrap">
+                                    <div class="hire me-5 mb-4">
+                                        <a href="#contact" class="cssbuttons-io-button" data-aos="fade-up"
+                                            data-aos-duration="1500"> Hire Me
+                                            <div class="icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                                    height="24">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path fill="currentColor"
+                                                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="aboutme me-5 mb-4">
+                                        <a href="#about" class="cssbuttons-io-button" data-aos="fade-up"
+                                            data-aos-duration="1500"> More About Me
+                                            <div class="icon">
+                                                <svg height="24" width="24" viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                                    <path
+                                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img src="Images/hero image.gif" alt="Image not found"
+                                    class="home__img img-fluid w-100">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--=================== end of herosection ====================-->
+
+
+        <!--===================== About =====================-->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center gy-5">
+                    <div class="col-12">
+                        <h1 class="section__subtitle text-center pb-2" data-aos="fade-up" data-aos-duration="1100">ABOUT
+                            ME</h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="about-me-content">
+                            <h1 class="text-start" id="typewriter" data-aos="fade-up" data-aos-duration="1300">I'm
+                                <a href="#about" class="typewrite" data-period="2000"
+                                    data-type='["Full Stack Developer." , "Problem Solver."]'>
+                                </a>
+                            </h1>
+                            <h2 id="about-info" data-aos="fade-up" data-aos-duration="1500">I Develop
+                                Experiences that
+                                make people's life simple.</h2>
+                            <p class="about__description my-5" data-aos="fade-up" data-aos-duration="1700">My objective
+                                is simply to be the best Web Developer and
+                                contribute to
+                                the industry all that I know and also to grow through continuous learning and knowledge
+                                sharing
+                                with integrity and hard work to achieve goals.</p>
+                            <div class="download-button">
+                                <a href="Images/Pravin's Resume.pdf" target="_blank" class="button-wrapper"
+                                    data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="00">
+                                    <div class="text">Download CV</div>
+                                    <span class="icon-2">
+                                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" height="1.5em"
+                                            width="1.5em" role="img" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"
+                                                stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                                                stroke="currentColor" fill="none"></path>
+                                        </svg>
+                                    </span>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 col-xl-4" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="card text-center">
+                            <div class="card__cometOuter">
+                                <div class="card__comet"></div>
+                                <div class="card__comet card__comet--second">
+                                </div>
+                            </div>
+                            <div class="card__circle"></div>
+                            <div class="card__smallCircle"></div>
+                            <div class="card__orangeShine"></div>
+                            <div class="card__greenShine"></div>
+                            <div class="card__thankyou">
+                                PRAVIN <br> SANAP
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--=================== end of about section  ====================-->
+
+
+
+        <!--=================== start of education section ====================-->
+
+        <section id="education" class="education pt-5">
+            <div class="ag-timeline-block overflow-hidden ">
+                <div class="container ag-timeline_title-box">
+                    <div class="ag-timeline_title pt-4 section__subtitle" data-aos="fade-up" data-aos-duration="1100">
+                        EDUCATION</div>
+                </div>
+                <section class="ag-section">
+                    <div class="ag-format-container pt-5 mt-5">
+                        <div class="js-timeline ag-timeline">
+                            <div class="js-timeline_line ag-timeline_line">
+                                <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+                            </div>
+                            <div class="ag-timeline_list">
+                                <div class="js-timeline_item ag-timeline_item">
+                                    <div class="ag-timeline-card_box">
+                                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                            <div class="ag-timeline-card_point" data-aos="zoom-in"
+                                                data-aos-duration="1000"> 2023</div>
+                                        </div>
+                                        <div class="ag-timeline-card_meta-box">
+                                            <div class="ag-timeline-card_meta" data-aos="fade-up"
+                                                data-aos-duration="1400">Full Stack Java Development</div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_item">
+                                        <div class="ag-timeline-card_inner">
+                                            <div
+                                                class="ag-timeline-card_img-box text-center d-flex justify-content-center">
+                                                <img src="images/coding-java.png" alt="Image not found"
+                                                    class="img-fluid ag-timeline-card_img">
+                                            </div>
+                                            <div class="ag-timeline-card_info">
+                                                <div class="ag-timeline-card_desc">
+                                                    <h3 class="text-primary" data-aos="zoom-in"
+                                                        data-aos-duration="1100">2023</h3>
+                                                    <hr class="text-dark">
+                                                    <h3 class="text-yellow" data-aos="fade-up" data-aos-duration="1200"
+                                                        data-aos-offset="30">
+                                                        Full Stack Java Development</h3>
+                                                    <p class="text-dark fw-semibold fs-3" data-aos="fade-up"
+                                                        data-aos-duration="1400" data-aos-offset="30">Envision Computer
+                                                        Training
+                                                        Institute
+                                                        (ECTI), Pune</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ag-timeline-card_arrow"></div>
+                                    </div>
+                                </div>
+
+                                <div class="js-timeline_item ag-timeline_item">
+                                    <div class="ag-timeline-card_box">
+                                        <div class="ag-timeline-card_meta-box">
+                                            <div class="ag-timeline-card_meta" data-aos="fade-up"
+                                                data-aos-duration="1400">Bachelor Of Engineering</div>
+                                        </div>
+                                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                            <div class="ag-timeline-card_point" data-aos="zoom-in"
+                                                data-aos-duration="1000">2022</div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_item">
+                                        <div class="ag-timeline-card_inner">
+                                            <div class="ag-timeline-card_img-box d-flex justify-content-center">
+                                                <img src="Images/graduation.png" alt="Image not found"
+                                                    class="img-fluid ag-timeline-card_img">
+                                            </div>
+                                            <div class="ag-timeline-card_info">
+                                                <div class="ag-timeline-card_desc">
+                                                    <h3 class="text-primary" data-aos="zoom-in"
+                                                        data-aos-duration="1100">2019 - 2022</h3>
+                                                    <hr class="text-dark">
+                                                    <h3 class="text-yellow" data-aos="fade-up" data-aos-duration="1200"
+                                                        data-aos-offset="30">
+                                                        Production Engineering</h3>
+                                                    <h4 class="text-dark fs-3" data-aos="fade-up"
+                                                        data-aos-duration="1400" data-aos-offset="30">Amrutvahini
+                                                        College Of Engineering,
+                                                        Sangamner
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ag-timeline-card_arrow"></div>
+                                    </div>
+                                </div>
+
+                                <div class="js-timeline_item ag-timeline_item">
+                                    <div class="ag-timeline-card_box">
+                                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                            <div class="ag-timeline-card_point" data-aos="zoom-in"
+                                                data-aos-duration="1000">2019</div>
+                                        </div>
+                                        <div class="ag-timeline-card_meta-box">
+                                            <div class="ag-timeline-card_meta" data-aos="fade-up"
+                                                data-aos-duration="1400">Diploma in Engineering</div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_item">
+                                        <div class="ag-timeline-card_inner">
+                                            <div class="ag-timeline-card_img-box  d-flex justify-content-center">
+                                                <img src="Images/mech diploma.png"
+                                                    class="ag-timeline-card_img img-fluid" alt="Image not found" />
+                                            </div>
+                                            <div class="ag-timeline-card_info">
+                                                <div class="ag-timeline-card_desc">
+                                                    <h3 class="text-primary" data-aos="zoom-in"
+                                                        data-aos-duration="1100">2017 - 2019</h3>
+                                                    <hr class="text-dark">
+                                                    <h3 class="text-yellow" data-aos="fade-up" data-aos-duration="1200"
+                                                        data-aos-offset="30">
+                                                        Mechanical Engineering</h3>
+                                                    <h4 class="text-dark fs-3" data-aos="fade-up"
+                                                        data-aos-duration="1400" data-aos-offset="30">Amrutvahini
+                                                        Polytechnic College,
+                                                        Sangamner
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ag-timeline-card_arrow"></div>
+                                    </div>
+                                </div>
+
+                                <div class="js-timeline_item ag-timeline_item">
+                                    <div class="ag-timeline-card_box">
+                                        <div class="ag-timeline-card_meta-box">
+                                            <div class="ag-timeline-card_meta" data-aos="fade-up"
+                                                data-aos-duration="1400">HSC</div>
+                                        </div>
+                                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                            <div class="ag-timeline-card_point" data-aos="zoom-in"
+                                                data-aos-duration="1000">2017</div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_item">
+                                        <div class="ag-timeline-card_inner">
+                                            <div class="ag-timeline-card_img-box  d-flex justify-content-center">
+                                                <img src="Images/science new logo.png"
+                                                    class="ag-timeline-card_img img-fluid" alt="Image not found" />
+                                            </div>
+                                            <div class="ag-timeline-card_info">
+                                                <div class="ag-timeline-card_desc">
+                                                    <h3 class="text-primary" data-aos="zoom-in"
+                                                        data-aos-duration="1100">2015 - 2017</h3>
+                                                    <hr class="text-dark">
+                                                    <h3 class="text-yellow" data-aos="fade-up" data-aos-duration="1200"
+                                                        data-aos-offset="30">
+                                                        HSC</h3>
+                                                    <h4 class="text-dark fs-3" data-aos="fade-up"
+                                                        data-aos-duration="1400" data-aos-offset="30">Dnyanmata Junior
+                                                        College, Sangamner
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ag-timeline-card_arrow"></div>
+                                    </div>
+                                </div>
+
+                                <div class="js-timeline_item ag-timeline_item">
+                                    <div class="ag-timeline-card_box">
+                                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                            <div class="ag-timeline-card_point" data-aos="zoom-in"
+                                                data-aos-duration="1000">2015</div>
+                                        </div>
+                                        <div class="ag-timeline-card_meta-box">
+                                            <div class="ag-timeline-card_meta" data-aos="fade-up"
+                                                data-aos-duration="1400">SSC</div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_item">
+                                        <div class="ag-timeline-card_inner">
+                                            <div class="ag-timeline-card_img-box d-flex justify-content-center">
+                                                <img src="Images/ssc 10th.png" class="ag-timeline-card_img img-fluid"
+                                                    alt="Image not found" />
+                                            </div>
+                                            <div class="ag-timeline-card_info">
+                                                <div class="ag-timeline-card_desc">
+                                                    <h3 class="text-primary" data-aos="zoom-in"
+                                                        data-aos-duration="1100">2015</h3>
+                                                    <hr class="text-dark">
+                                                    <h3 class="text-yellow" data-aos="fade-up" data-aos-duration="1200"
+                                                        data-aos-offset="30">
+                                                        SSC</h3>
+                                                    <h4 class="text-dark fs-3" data-aos="fade-up"
+                                                        data-aos-duration="1400" data-aos-offset="30">New English
+                                                        School, Talegaon Dighe</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ag-timeline-card_arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section> <!-- ////////////// education section ends /////// -->
+
+
+        <!--===================== Skills section starts =====================-->
+        <section id="skills" class="skills section section-bg"
+            style="background-image: url(Images/lines.png); background-size: cover;">
+            <div class="container-fluid">
+                <div class="row py-3">
+                    <div class="col-12 container text-center my-3">
+                        <h1 class="section__subtitle skill-section pb-2" data-aos="fade-up" data-aos-duration="1100">
+                            SKILLS</h1>
+                        <h2 class="section__title py-3 mb-5" data-aos="fade-up" data-aos-duration="1400">Some of My
+                            Working Tools</h2>
+                    </div>
+                    <div class="container svg-container">
+                        <div class="row d-flex justify-content-evenly gy-5 gap-3">
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="Images/html-logo.svg" alt="HTML Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="90" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">90</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">HTML</h3>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="Images/css-logo.svg" alt="CSS Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="80" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">CSS</h3>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="images/bootstrap 2.png" alt="Node.Js Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="75" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">75</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">Bootstrap</h3>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="Images/javascript-logo.svg" alt="JavaScript Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="65" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">65</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">JavaScript</h3>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="Images/pngwing.com.png" alt="Vue.js Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="60" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">60</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">JQuery</h3>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-5 col-lg-3">
+                                <div class="skills__card">
+                                    <div class="skills__img-wrapper">
+                                        <img src="Images/react-logo.svg" alt=" React  Logo" class="skills__img">
+                                    </div>
+                                    <div class="skillbar" data-aos="zoom-in" data-aos-duration="500">
+                                        <svg class="radial-progress " data-countervalue="55" viewBox="0 0 80 80">
+                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                            <circle class="bar--animated" cx="40" cy="40" r="35"
+                                                style="stroke-dashoffset: 217.8;">
+                                            </circle>
+                                            <text class="countervalue start" x="50%" y="57%"
+                                                transform="matrix(0, 1, -1, 0, 80, 0)">55</text>
+                                        </svg>
+                                    </div>
+                                    <h3 class="skills__name" data-aos="fade-up" data-aos-duration="1200"
+                                        data-aos-offset="0">React</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--===================  end of skill section ====================-->
+
+        <!--===================== Portfolio or my work  =====================-->
+        <section id="portfolio" class="portfolio section" style="background-image: url(Images/download333.png);">
+            <div class="section__header container">
+                <h1 class="section__subtitle pb-3" data-aos="fade-up" data-aos-duration="1100">MY WORK</h1>
+                <h2 class="section__title" data-aos="zoom-in" data-aos-duration="1400">Featured Projects</h2>
+            </div>
+            <div class="carousel">
+                <div class="carousel__body">
+                    <div class="carousel__prev">
+                        <i class="fas fa-caret-square-left bg-light px-2 rounded-4" data-aos="zoom-in"
+                            data-aos-duration="500" data-aos-offset="5"></i>
+                    </div>
+                    <div class="carousel__next">
+                        <i class="fas fa-caret-square-right bg-light px-2 rounded-4" data-aos="zoom-in"
+                            data-aos-duration="500" data-aos-offset="5"></i>
+                    </div>
+                    <div class="carousel__slider py-5">
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Taste.it</h3>
+                                    <h6 class="text-light">HTML & CSS Only</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-1 d-flex justify-content-center">
+                                    <a href="projects/Taste.it/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Apple Watch Series 4</h3>
+                                    <h6 class="text-light">HTML & CSS Only</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-2 d-flex justify-content-center">
+                                    <a href="projects/Apple Watch Series 4/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Makaan</h3>
+                                    <h6 class="text-light">HTML, CSS, Bootstrap, JS & JQuery</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-3 d-flex justify-content-center">
+                                    <a href="projects/Makaan/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Kindergarten</h3>
+                                    <h6 class="text-light">HTML, CSS, Bootstrap, JS & JQuery</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-8 d-flex justify-content-center">
+                                    <a href="projects/Kindergarten/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Alister Bank</h3>
+                                    <h6 class="text-light">HTML, CSS, Bootstrap, JS & JQuery</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-6 d-flex justify-content-center">
+                                    <a href="projects/Alister Bank/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                        <div class="carousel__slider__item">
+                            <div class="item__3d-frame">
+                                <div class="content bg-dark text-center py-2 border border-3 border-light">
+                                    <h3 class="fw-bold">Pretty</h3>
+                                    <h6 class="text-light">HTML, CSS, Bootstrap, JS & JQuery</h6>
+                                </div>
+                                <div
+                                    class="item__3d-frame__box item__3d-frame__box--front box-7 d-flex justify-content-center">
+                                    <a href="projects/Pretty/index.html" target="_blank"
+                                        class="fw-bold rounded-pill btn-outline-light btn py-2 px-3">View</a>
+                                </div>
+                                <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                                <div class="item__3d-frame__box item__3d-frame__box--right"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- =================== end of my work  ==================== -->
+
+
+        <!--===================== Contact =====================-->
+        <section id="contact" class="contact section section-bg">
+            <div class="container-fluid">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <div class="container text-center my-4 section__subtitle" data-aos="fade-up"
+                        data-aos-duration="1100">
+                        CONTACT ME
+                    </div>
+
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center text-md-start">
+                        <h3 data-aos="fade-up" data-aos-duration="1200">Get in Touch</h3>
+                        <div class="mydata my-4" data-aos="fade-up" data-aos-duration="1000">
+                            <h4 class="fw-bold my-3 mt-5"><i class="fas fa-map-marker-alt"></i> Address :</h4>
+                            <address>Sangamner, Maharashtra, 422611</address>
+                            <hr>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="container">
+                                <div class="row pt-5 gy-5 align-items-center d-flex justify-content-center">
+                                    <div class="col-12 col-sm-6 col-md-4 d-flex  justify-content-center">
+                                        <a class="social-icon social-icon--contact"
+                                            href="mailto:pravinsanap2000@gmail.com" target="_blank">
+                                            <i class="fas fa-envelope fw-bold display-4"></i>
+                                            <p class="tooltip">Email</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                                        <a class="social-icon social-icon--contact"
+                                            href="https://www.linkedin.com/in/pravin-sanap-33b54b231/" target="_blank">
+                                            <i class="fab fa-linkedin-in fw-bold display-4"></i>
+                                            <p class="tooltip">LinkedIn</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                                        <a class="social-icon social-icon--contact"
+                                            href="https://www.naukri.com/mnjuser/profile?id=&altresid&action=modalOpen"
+                                            target="_blank">
+                                            <i class="fas fa-user-tie fw-bold display-4"></i>
+                                            <p class="tooltip">Naukri.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /////// end of contact form ///////// -->
+    </main>
+    <!--===================== end of main section =====================-->
+
+    <!--===================== Footer =====================-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__copyright py-4 text-center align-items-center d-flex justify-content-center">
+                <img src="images/pravin-logo.gif" alt="Image not found" class="img-fluid col-2 footerLogo mb-3">
+                <p class="col-10">Copyright &copy; <span id="year"></span> | Designed By <span
+                        class="footerName fw-bold">Pravin
+                        Sanap</span></p>
+                <!-- <a href="linkedin.com/in/pravin-sanap-33b54b231"><i class="fab fa-linkedin display-3 fw-bold text-primary"></i></a> -->
+            </div>
+        </div>
+        <img src="images/wave.a9736b988d315dea1edc.png" alt="Image not found" class="img-fluid bg-opacity-10"
+            style="margin-bottom: -24px !important;">
+    </footer> <!--=================== End of footer ====================-->
+
+    <!--=================== scroll top icon  ====================-->
+    <a href="#" id="scrolltop" class="scrolltop">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+
+
+    <!--=================== END OF HTML  ====================-->
+
+
+    <!--=================== Bootstrap cdn script  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=================== JQuery cdn ==================-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!--=================== AOS Library Script ==================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!--=================== Main JS ====================-->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

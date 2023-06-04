@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makaan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../1-Owl Carousel Plugin/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../1-Owl Carousel Plugin/css/owl.theme.default.min.css">
+  <link rel="icon" href="Images/estate-favicon.png">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!-- /////// Navbar Start ///////// -->
+  <nav class="container-fluid navbar nav navbar-expand-lg bg-body-tertiary" id="mynav">
+    <div class="container-fluid px-lg-5 d-flex align-items-center">
+      <a class="navbar-brand text-success fw-bold fs-1" href="#"><i
+          class="fas fa-handshake fs-1 border border-success rounded-circle text-success fw-bold p-2"
+          id="navbaricon"></i>
+        Makaan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-list-ul fs-1"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-dark ms-auto fs-5">
+          <a class="nav-link active me-lg-3 fw-bold px-2" aria-current="page" href="#hero">Home</a>
+          <a class="nav-link text-dark me-lg-3 fw-bold px-2" href="#about">About</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold px-2 fs-5 me-lg-3 text-dark" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Property
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#pages">Property List</a></li>
+              <li><a class="dropdown-item" href="#proptype">Property Type</a></li>
+              <li><a class="dropdown-item" href="#agents">Property Agent</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold px-2 fs-5 me-lg-3 text-dark" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#testimonial">Testimonial</a></li>
+              <li><a class="dropdown-item" href="#about">Others</a></li>
+            </ul>
+          </li>
+          <a class="nav-link text-dark me-lg-3 fw-bold px-2" href="#contact">Contact</a>
+          <button class="btn btn-outline-success rounded d-none d-lg-flex fw-bold fs-5">Add Property</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /////////////// end of navbar //////////////// -->
+
+  <!-- ///////// carousel start /////////  -->
+  <div class="herosection pt-5" id="hero" style="margin-top: 30px;">
+    <div class="d-flex flex-wrap col-md-12 m-0">
+      <div
+        class="text col-md-6 px-3 py-2 px-lg-4 d-md-flex align-items-center justify-content-center order-2 order-md-1">
+        <div class="py-2 py-sm-0" data-aos="fade-down" data-aos-duration="2000">
+          <h1 class="fw-bold fs-1">Find A <span class="text-success fw-bold fs-1" style="
+            font-family: 'Unbounded', cursive;">Perfect Home</span> To Live With Your
+            Family</h1>
+          <p class="py-1 fs-5">Real estate cannot be lost or stolen, nor can it be carried away. Purchased with common
+            sense, it is about the safest investment in the world.</p>
+          <button class="btn btn-outline-success fs-5 fw-bold">Get Started</button>
+        </div>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide order-1 m-0 col-md-6 order-md-2" data-bs-ride="carousel">
+        <div class="carousel-inner m-0">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Images/carousel-1.jpg" class="d-block w-100 m-0" alt="Image not found">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Images/carousel-2.jpg" class="d-block w-100 img-fluid h-20" alt="Image not found">
+          </div>
+          <button class="carousel-control-prev p-5" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon rounded-circle  bg-success p-4" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next position-absolute top-50 start-0 p-5" type="button"
+            data-bs-target="#carouselExampleInterval" data-bs-slide="next" id="nextbtn">
+            <span class="carousel-control-next-icon rounded-circle  bg-success p-4" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="upicon">
+      <a class="fs-1" href="#hero">
+        <i class="fas fa-arrow-alt-circle-up text-success rounded-circle bg-white img-thumbnail"></i></a>
+    </div>
+    <!-- //////// end of herosection ///// -->
+
+    <!-- //////// start of form ////////// -->
+    <div class="container-fluid bg-success py-5 px-3">
+      <div class="row g-2">
+        <div class="d-lg-flex align-items-center justify-content-center">
+          <form action="submit" method="post"
+            class="col-12 col-md-12 col-lg-12 d-md-flex align-items-center justify-content-center justify-content-evenly"
+            data-aos="flip-down" data-aos-duration="1000">
+            <div class="col-auto col-lg-3">
+              <input type="rext" class="form-control my-2 " id="inputPassword2" placeholder="Search Keyword" required="Required">
+            </div>
+            <select name="type" id="type" class="px-2 py-2 my-2 col-12 col-md-3 col-lg-3 rounded border">
+              <option value="type" selected disabled>Property Type</option>
+              <option value="type1">Property Type 1</option>
+              <option value="type2">Property Type 2</option>
+              <option value="type3">Property Type 3</option>
+            </select>
+            <select name="location" id="location" class="px-2 py-2 my-2 col-12 col-md-3 col-lg-3 rounded border">
+              <option value="location" selected disabled>location</option>
+              <option value="location1">location 1</option>
+              <option value="location2">location 2</option>
+              <option value="location3">location 3</option>
+            </select>
+            <div class="col-auto my-2">
+              <button type="submit" class="btn btn-outline-light col-12 fw-bold px-5">Search</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////// end of form ////////// -->
+
+    <!-- //////// start of property types ////////// -->
+    <div class="container-fluid" id="proptype">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-12 my-5">
+          <div class="heading text-center px-3 px-md-5" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <h1 class="fw-bold fs-1 px-md-5">Property Types</h1>
+            <p class=" py-3 px-md-5 fs-5">Real property may be classified according to its general use as residential,
+              commercial, agricultural, industrial, or special purpose. In order to understand if you have the right to
+              sell your home, you need to know which rights you possess or don't possess in the property.</p>
+          </div>
+          <div
+            class="col-12 d-flex flex-wrap text-center justify-content-center justify-content-evenly align-items-center col-sm-12 col-lg-12 ">
+            <div
+              class="room1 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-xl-5 mx-lg-4 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content1 col-10 col-sm-10 col-xl-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-building fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Apartment</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room2 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content2 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-hand-holding-usd fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Villa</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room3  my-4 py-3  col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content3 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-hotel fs-1  rounded-circle p-4 text-success my-3"></i>
+                <h4>Home</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room4 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content4 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-laptop-house fs-1  rounded-circle p-4 text-success my-3"></i>
+                <h4>Office</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room5 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content5 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-city fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Building</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room6 my-4 py-3 col-12 col-sm-5 col-md-5 col-lg-2 mx-xl-5  mx-lg-4 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content6 col-10 col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-warehouse fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Townhouse</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room7 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content7 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-store-alt fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Shop</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+            <div
+              class="room8 my-4 py-3 col-12 col-sm-5 col-lg-2 mx-lg-4 mx-xl-5 bg-success d-flex align-items-center justify-content-center bg-opacity-25 rounded"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="content8 col-10  col-sm-10 col-lg-10 bg-white rounded" data-aos="zoom-in"
+                data-aos-duration="2000">
+                <i class="fas fa-vihara fs-1 rounded-circle p-4 text-success my-3"></i>
+                <h4>Garage</h4>
+                <p class="text-success fw-bolder">123 Properties</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////// end of property types ////////// -->
+
+    <!-- //////// start of place of property ////////// -->
+    <div class="container-fluid" id="about">
+      <div class="row my-5">
+        <div
+          class="col-12 col-md-12 col-lg-12 d-lg-flex align-items-center justify-content-center justify-content-around">
+          <div class="image col-md-12 col-12 col-lg-6 text-center position-relative">
+            <div class="img col-12">
+              <img src="images/property-3.jpg" alt="Image Not Found" class="img-fluid" data-aos="fade-down"
+                data-aos-duration="1000">
+            </div>
+            <div class="bg bg-success position-absolute top-50 start-50 translate-middle col-12 z-n1" id="mydiv">
+              <img src="images/property-3.jpg" alt="img not found" class="img-fluid" style="padding: 100px;"
+                data-aos="fade-down" data-aos-duration="1500">
+            </div>
+          </div>
+          <div class="place p-4 col-md-12 col-12 col-lg-5" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <h1 class="fw-bold fs-1 mt-5">#1 Place To Find The Perfect Property</h1>
+            <p class="py-2 fs-5">Whether you are interested in becoming a realtor or looking forward to owning your own
+              home,
+              the real
+              estate industry is exciting from all perspectives.</p>
+            <div class="checks fs-5">
+              <div class="check1">
+                <i class="fas fa-check me-3 text-success"></i>
+                Landlords grow rich in their sleep without working, risking or economizing.
+              </div>
+              <div class="check2">
+                <i class="fas fa-check me-3 text-success"></i>
+                Find out where the people are going and buy the land before they get there.
+              </div>
+              <div class="check3">
+                <i class="fas fa-check me-3 text-success"></i>
+                Buy land, they’re not making it anymore.
+              </div>
+            </div>
+            <button class="rounded my-4 btn btn-outline-success fs-5 fw-bold ">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- //////// start of property listing ////////// -->
+    <div class="container-fluid bg-light" id="pages">
+      <div class="row">
+        <div class="heading col-12 col-lg-12 d-lg-flex justify-content-center px-3 px-lg-5 my-5">
+          <div class="content1 col-12 col-lg-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Property Listing</h1>
+            <p class="fs-5">The house you looked at today and wanted to think about until tomorrow may be the same house
+              someone
+              looked at yesterday and will buy today.</p>
+          </div>
+          <div class="content2 col-12 col-lg-6 d-flex justify-content-lg-end align-items-end">
+            <div class="btns" data-aos="flip-up" data-aos-duration="3000">
+              <button class="btn btn-success py-2">Featured</button>
+              <button class="btn btn-outline-success py-2">For Sell</button>
+              <button class="btn btn-outline-success py-2">For Rent</button>
+            </div>
+          </div> <!--end of content-->
+        </div> <!--end of content div-->
+      </div> <!--end of row-->
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 d-md-flex flex-wrap justify-content-evenly align-items-center">
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-1.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Sell</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Appartment</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Sell</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class=" py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-2.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Rent</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Villa</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Rent</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-3.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Sell</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Office</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Sell</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-4.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Rent</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Building</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Rent</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-5.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Sell</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Home</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Sell</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+          <div class="property1 rounded-3 col-12 col-md-5 col-lg-3 mx-lg-2 shadow-lg my-4" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="content1 rounded-top position-relative">
+              <img src="images/property-6.jpg" alt="Image not found" class="img-fluid" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <button
+                class="position-absolute top-0 start-0 bg-success text-white rounded border border-success py-1 px-3"
+                style="margin: 15px 20px;">For Rent</button>
+            </div>
+            <button class="z-3 btn bg-white text-success fw-semibold rounded py-2 px-3" id="propbtn">Shop</button>
+            <div class="content2">
+              <p class="px-3 mt-3 fs-4 fw-bold text-success"> $12,345</p>
+              <h5 class="px-3">Golden Urban House For Rent</h5>
+              <p class="px-3"><i class="fas fa-map-marker-alt text-success"></i> 123 Street, New York, USA</p>
+              <div class="foot d-flex justify-content-between align-items-center text-center" style="font-size: 12px;">
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139);"><i
+                    class="fas fa-rss-square me-2 text-success"></i>1000 Sqft</div>
+                <div class="py-2 fw-bold" style="width: 33.33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bed me-2 text-success"></i>3 Bed</div>
+                <div class="border-0 py-2 fw-bold" style="width: 33%; border-right: 2px dashed rgb(53, 209, 139)"><i
+                    class="fas fa-bath me-2 text-success"></i> 2 fa-bath</div>
+              </div>
+            </div>
+          </div> <!--end of prop1-->
+        </div>
+        <div class="propbtn text-center d-flex align-items-center justify-content-center col-12 col-lg-12">
+          <button
+            class="text-center bg-success my-3 mb-5 px-5 p-3 text-white rounded border border-success fs-6 propertybtn">Browse
+            More
+            Property</button>
+        </div>
+      </div> <!--end of row-->
+    </div> <!--end of property listing-->
+
+    <!-- /////////////// Start of contact ///////////// -->
+    <div class="container my-5" id="contact">
+      <div class="row">
+        <div class="contactbg rounded-3 bg-success bg-opacity-50">
+          <div
+            class="contact bg-white col-12 my-2 col-lg-12 d-lg-flex align-items-center justify-content-center justify-content-between rounded-3">
+            <div class="image col-12 d-flex justify-content-center  col-lg-5 m-auto p-3 m-lg-3 text-center">
+                <div class="card" data-aos="fade-up" data-aos-duration="1800">
+                  <div class="imgBx">
+                     <img src="Images/call-to-action.jpg" alt="images" class="img-fluid rounded-2">
+                  </div>
+                  <div class="details">
+                     <h2>MARKUS DANIEL<br><span>Certified Agent</span></h2>
+                   </div>
+                </div>
+            </div>
+            <div class="content col-12 my-3 px-2 col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+              <h1 class="px-2">Contact With Our Certified Agent</h1>
+              <p class="px-2 fs-5">Buyers decide in the first eight seconds of seeing a home if they’re interested in
+                buying
+                it. Get out
+                of your car, walk in their shoes and see what they see within the first eight seconds.</p>
+              <button
+                class="bg-success rounded text-white py-2 px-3 text-center mb-3 mx-2 propertybtn border border-2 border-success"><i
+                  class="fas fa-phone-alt me-2"></i>Make A Call</button>
+              <button
+                class="bg-success rounded text-white py-2 px-3 text-center mb-3 mx-2 propertybtn border border-2 border-success"><i
+                  class="fas fa-calendar-check me-2"></i> Get Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////// end of contact ///////////// -->
+
+    <!-- /////////////// Start of Agents ///////////// -->
+    <div class="container-fluid" id="agents">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 mb-5">
+          <div class="heading col-12 col-md-12 p-3 p-md-5 col-lg-12 text-center" data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Property Agents</h1>
+            <p class="px-lg-5 my-3 fs-5">Looking to stand out on social media, or just have a couple quotes handy to
+              impress
+              potential clients?
+              We’ve put together a list of ten quotes designed to connect with clients and offer reasons why now’s the
+              time to buy, or sell.</p>
+          </div> <!--end of heading-->
+          <div
+            class="content d-flex flex-wrap align-items-center justify-content-center justify-content-evenly col-12 col-lg-12">
+            <div
+              class="agent1 rounded-3 bg-success bg-opacity-10 col-12 col-md-5 col-lg-2 text-center my-2 pb-3 shadow-lg"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="img position-relative">
+                <img src="images/team-1.jpg" alt="Image not found" class="img-fluid rounded-top-3" data-aos="zoom-in"
+                  data-aos-duration="3000">
+                <div class="icons position-absolute top-100 start-50 translate-middle  d-flex">
+                  <i class="fab fa-facebook text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-twitter text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-instagram text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                </div>
+              </div>
+              <h4 class="mt-5">Sofia Emma</h4>
+              <p> Estate Attorney</p>
+            </div> <!--end of agent1-->
+            <div
+              class="agent1 rounded-3 bg-success bg-opacity-10 col-12 col-md-5 col-lg-2 text-center my-4 pb-3 shadow-lg"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="img position-relative">
+                <img src="images/team-2.jpg" alt="Image not found" class="img-fluid rounded-top-3" data-aos="zoom-in"
+                  data-aos-duration="3000">
+                <div class="icons position-absolute top-100 start-50 translate-middle d-flex">
+                  <i class="fab fa-facebook text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-twitter text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-instagram text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                </div>
+              </div>
+              <h4 class="mt-5">Lucas Chloe</h4>
+              <p> Land Consultant</p>
+            </div> <!--end of agent2-->
+            <div
+              class="agent1 rounded-3 bg-success bg-opacity-10 col-12 col-md-5 col-lg-2 text-center my-4 pb-3 shadow-lg"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="img position-relative">
+                <img src="images/team-3.jpg" alt="Image not found" class="img-fluid rounded-top-3" data-aos="zoom-in"
+                  data-aos-duration="3000">
+                <div class="icons position-absolute top-100 start-50 translate-middle d-flex">
+                  <i class="fab fa-facebook text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-twitter text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-instagram text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                </div>
+              </div>
+              <h4 class="mt-5">Victoria Lucin</h4>
+              <p>Property Manager</p>
+            </div> <!--end of agent3-->
+            <div
+              class="agent1 rounded-3 bg-success bg-opacity-10 col-12 col-md-5 col-lg-2 text-center my-4 pb-3 shadow-lg"
+              data-aos="fade-up" data-aos-duration="1000">
+              <div class="img position-relative">
+                <img src="images/team-4.jpg" alt="Image not found" class="img-fluid rounded-top-3" data-aos="zoom-in"
+                  data-aos-duration="3000">
+                <div class="icons position-absolute top-100 start-50 translate-middle d-flex">
+                  <i class="fab fa-facebook text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-twitter text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                  <i class="fab fa-instagram text-center text-success bg-white rounded-circle p-2 mx-1"></i>
+                </div>
+              </div>
+              <h4 class="mt-5">Oliver Ethan</h4>
+              <p>Seller Specialist</p>
+            </div> <!--end of agent4-->
+          </div> <!--end of content-->
+        </div> <!--end of col-->
+      </div> <!--end of row-->
+    </div> <!--end of container-->
+
+
+    <!-- /////////// start of Our Clients Say! ///////////// -->
+
+    <div class="container">
+      <div class="row my-5 position-relative">
+        <div class="heading text-center p-md-5 col-12" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1500">
+          <h1>Our Clients Say!</h1>
+          <p class="px-3 px-md-5 fs-5">Looking to stand out on social media, or just have a couple quotes handy to
+            impress potential clients? We’ve put together a list of ten quotes designed to connect with clients and
+            offer reasons why now’s the time to buy, or sell.</p>
+        </div>
+        <div class="col-12">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="bg-success bg-opacity-25 rounded-3 p-3 my-2" id="background">
+                <div class="client1 p-3 bg-white rounded-3" id="border">
+                  <p class="fs-5">A client has a contractual relationship with an agent, and an agent represents a
+                    client
+                    in
+                    a legal
+                    transaction. A customer becomes a client when a relationship is documented in an agreement.</p>
+                  <div class="image d-flex align-items-end">
+                    <div class="img">
+                      <img src="images/testimonial-1.jpg" alt="Image not found" class="img-fluid me-4 rounded-3">
+                    </div>
+                    <div class="text ms-4">
+                      <h5>Dania Harward</h5>
+                      <p>Property Owner</p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--end of client1-->
+            </div>
+
+            <div class="item">
+              <div class="bg-success bg-opacity-25 rounded-3 p-3 my-2" id="background">
+                <div class="client2 p-3 bg-white rounded-3" id="border">
+                  <p class="fs-5">A client has a contractual relationship with an agent, and an agent represents a
+                    client
+                    in
+                    a legal
+                    transaction. A customer becomes a client when a relationship is documented in an agreement.</p>
+                  <div class="image d-flex align-items-end">
+                    <div class="img">
+                      <img src="images/testimonial-2.jpg" alt="Image not found" class="img-fluid me-4 rounded-3">
+                    </div>
+                    <div class="text ms-4">
+                      <h5>Alias Nobel</h5>
+                      <p>Property Owner</p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--end of client2-->
+            </div>
+            <div class="item">
+              <div class="bg-success bg-opacity-25 rounded-3 p-3 my-2" id="background">
+                <div class="client3 p-3 bg-white rounded-3" id="border">
+                  <p class="fs-5">A client has a contractual relationship with an agent, and an agent represents a
+                    client
+                    in
+                    a legal
+                    transaction. A customer becomes a client when a relationship is documented in an agreement.</p>
+                  <div class="image d-flex align-items-end">
+                    <div class="img">
+                      <img src="images/testimonial-3.jpg" alt="Image not found" class="img-fluid me-4 rounded-3">
+                    </div>
+                    <div class="text ms-4">
+                      <h5>Albert Poppins</h5>
+                      <p>Property Owner</p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--end of client3-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //// end of our clients //// -->
+
+
+
+    <!-- /////// start of Footer ////////// -->
+
+    <div class="container-fluid py-5" id="footer">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 d-flex flex-wrap my-5 text-white">
+          <div class="foot1 col-12 col-md-6 mb-5 col-lg-3 ps-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4 class="fw-bold mb-4">Get In Touch</h4>
+            <p><i class="fas fa-map-marker-alt  me-3"></i> 123 Street, New York, USA</p>
+            <p><i class="fas fa-phone-alt me-3"></i> +012 345 67890</p>
+            <p><i class="fas fa-envelope  me-3"></i> info@example.com</p>
+            <div class="icons" data-aos="fade-up" data-aos-duration="3000">
+              <i class="fab fa-twitter border border-white p-2 mx-1 rounded-circle" id="footicon"></i>
+              <i class="fab fa-facebook  border border-white p-2 mx-1 rounded-circle" id="footicon"></i>
+              <i class="fab fa-youtube border border-white p-2 mx-1 rounded-circle" id="footicon"></i>
+              <i class="fab fa-linkedin-in border border-white p-2 mx-1 rounded-circle" id="footicon"></i>
+            </div>
+          </div> <!--end of foot1-->
+          <div class="foot2 col-12 col-md-6 col-lg-3 mb-5 ps-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4 class="fw-bold mb-4">Quick Links</h4>
+            <p><i class="fas fa-chevron-right  me-3"></i>About Us</p>
+            <p><i class="fas fa-chevron-right  me-3"></i>Contact Us</p>
+            <p><i class="fas fa-chevron-right me-3"></i>Our Services</p>
+            <p><i class="fas fa-chevron-right me-3"></i>Privacy policy</p>
+            <p><i class="fas fa-chevron-right me-3"></i>Terms & Conditions</p>
+          </div> <!--end of foot2-->
+          <div class="foot3 col-12 col-md-6 text-left col-lg-3 mb-5" data-aos="fade-up" data-aos-duration="2000">
+            <h4 class="fw-bold mb-4 ps-3">Photo Gallery</h4>
+            <div
+              class="photos d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start col-12 col-lg-12">
+              <img src="images/property-1.jpg" alt="Image not found"
+                class="img-fluid col-3 col-lg-3 border border-5 rounded-3 border-white m-2" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <img src="images/property-2.jpg" alt="Image not found"
+                class="img-fluid col-3  col-lg-3 m-2 border border-5 rounded-3 border-white" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <img src="images/property-3.jpg" alt="Image not found"
+                class="img-fluid  col-3 col-lg-3 m-2 border border-5 rounded-3 border-white" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <img src="images/property-4.jpg" alt="Image not found"
+                class="img-fluid col-3  col-lg-3 m-2 border border-5 rounded-3 border-white" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <img src="images/property-5.jpg" alt="Image not found"
+                class="img-fluid  col-3 col-lg-3 m-2 border border-5 rounded-3 border-white" data-aos="zoom-in"
+                data-aos-duration="3000">
+              <img src="images/property-6.jpg" alt="Image not found"
+                class="img-fluid col-3  col-lg-3 m-2 border border-5 rounded-3 border-white" data-aos="zoom-in"
+                data-aos-duration="3000">
+            </div>
+          </div> <!--end of foot3-->
+          <div class="foot4 col-12 col-md-6 col-lg-3 mb-5 ps-3" data-aos="fade-up" data-aos-duration="2000">
+            <h4 class="fw-bold mb-4">Newsletter</h4>
+            <p>Subscribe to the Newsletter for more queries. Sign up using E-mail.</p>
+            <div class="input position-relative">
+              <div class="input-group pe-lg-5 mb-3 text-white" data-aos="fade-up" data-aos-duration="2000" required="required">
+                <input type="text" class="form-control bg-transparent text-white" placeholder="Your E-mail"
+                  aria-describedby="button-addon2"  id="inputbtn">
+                <button class="btn btn-success border border-3 border-white" type="button"
+                  id="button-addon2">SignUp</button>
+              </div>
+            </div>
+          </div> <!--end of foot4-->
+        </div> <!--end of col-12-->
+        <div class="hr fw-bold text-white">
+          <hr>
+        </div>
+        <div class="col-12 col-md-12 col-lg-12 text-white">
+          <div class="footerlast d-flex flex-wrap justify-content-between text-center align-items-center">
+            <div class="content1 col-12 col-md-5 col-lg-4">
+              &copy; All Right Reserved, 2022. Designed By Pravin Sanap.
+            </div>
+            <div class="content2 col-12 mt-5 mt-md-0 col-md-5 col-lg-4 d-flex justify-content-between text-center">
+              <a href="#" class="text-decoration-none fw-bold col-3  text-white border-end">Home</a>
+              <a href="#" class="text-decoration-none fw-bold col-3 text-white border-end">Cookies</a>
+              <a href="#" class="text-decoration-none fw-bold col-3 text-white border-end">Help</a>
+              <a href="#" class="text-decoration-none fw-bold col-3 text-white">FAQ's</a>
+            </div>
+          </div>
+        </div>
+      </div> <!--end of container row-->
+    </div> <!--end of container fluid-->
+    <!-- /////// end of Footer ////////// -->
+
+
+
+    <!-- //////// HTML Body ends here ///////////// -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="../1-Owl Carousel Plugin/js/owl.carousel.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots:false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        responsive: {
+          0: {
+            items: 1,
+            dots:true,
+            nav: false
+          },
+          690:{
+            items:1,
+            dots: false,
+            nav: true
+          },
+          992: {
+            items: 2
+          }
+        }
+      });
+    </script>
+</body>
+
+</html>

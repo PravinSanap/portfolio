@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kindergarten</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Rowdies:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="Images/school fav-icon.png">
+  <link rel="stylesheet" href="../1-Owl Carousel Plugin/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../1-Owl Carousel Plugin/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<script>
+</script>
+
+<body>
+  <header id="home">
+    <section>
+      <div class="container-fluid" id="home">
+        <div class="row bg-violet text-light d-none d-md-flex justify-content-center align-items-center text-center">
+          <div class="col-md-6 col-lg-6 d-lg-flex justify-content-center align-items-center">
+            <p><i class="fas fa-map-marker-alt mx-2"></i> 57/A, GREEN LANE, NYC</p>
+            <p class="mx-5"><i class="fas fa-phone-alt mx-2"></i> +10 (78) 367 3692</p>
+          </div>
+          <div class="col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+            <i class="fab fa-facebook snip1185 green ion-ios-star-outline"></i>
+            <i class="fab fa-twitter-square snip1185 green ion-ios-star-outline"></i>
+            <i class="fab fa-linkedin snip1185 green ion-ios-star-outline"></i>
+            <i class="fab fa-instagram-square snip1185 green ion-ios-star-outline"></i>
+          </div>
+        </div><!--end of top bar-->
+      </div><!--end of main container-fluid-->
+    </section>
+
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative py-4">
+        <div class="container">
+          <img src="images/logo.png" alt="Image not found">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-stream fs-1 text-dark"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav pt-1 ms-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link btn-flip" aria-current="page" href="#home" data-back="&#10132;"
+                  data-front="Home"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-flip" href="#classesAdmission" data-back="&#10132;" data-front="Class"></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link btn-flip" href="#about" data-back="&#10132;" data-front="About"></a>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <a class="nav-link dropdown-toggle btn-flip" href="#event" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" data-back="🡻" data-front="Blog">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#event">Blog</a></li>
+                  <li><a class="dropdown-item" href="#event">Blog Details</a></li>
+                  <li><a class="dropdown-item" href="#event">Elements</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-flip" href="#" data-back="&#10132;" data-front="Contact"></a>
+              </li>
+              <div class="button-effect">
+                <a class="effect effect-5 fw-semibold rounded-pill ms-lg-3" href="#" title="Learn More">Enroll Now</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center h-100 position-absolute start-50 top-0 translate-middle">
+          <div class="searchbar d-none d-lg-block z-1">
+            <input class="search_input z-1" type="text" placeholder="Search...">
+            <a href="#" class="search_icon z-1"><i class="fas fa-search z-1" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"></i></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Thanks for your response...!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Your Search request is processing.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of nav bar-->
+  </header> <!--end of header-->
+
+  <main>
+    <section>
+      <div class="container-fluid">
+        <div class="row herosection d-flex justify-content-center">
+          <div class="col-10 col-sm-8 col-md-5 py-5 px-5 align-items-center bg-light rounded-5 position-relative">
+            <h1 class="text-purple fw-bold display-2" data-aos="fade-up" data-aos-duration="1500"> Quality Learning
+            </h1>
+            <p class="text-yellow fw-bold display-5" data-aos="fade-up" data-aos-duration="2000">For Every Child</p>
+            <button class="btn btn3 rounded-pill fw-bold z-1" data-aos="fade-up" data-aos-duration="2500">Explore
+              Classes</button>
+          </div>
+          <div class="col-12 col-md-6">
+
+          </div>
+          <div class="arrow position-absolute">
+            <a href="#home" data-aos="zoom-in" data-aos-duration="3000" data-aos-offset="200"><i
+                class="fas fa-level-up-alt snip1106 "></i></a>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of herosection-->
+
+    <section>
+      <div class="container">
+        <div class="row my-4 align-items-center d-flex justify-content-center" id="about">
+          <div class="col-12 col-md-10  text-center pt-5">
+            <h1 class="text-purple fw-bold mb-3" data-aos="fade-down" data-aos-duration="1500">Welcome to our <span
+                class="text-violet">Kindergarten</span> </h1>
+            <p class="text-paragraph px-md-5 pb-5 fs-5" data-aos="fade-up" data-aos-duration="2000">Our set he for
+              firmament morning sixth subdue today the
+              darkness
+              creeping gathered
+              divide our let god
+              moving today. Moving in fourth air night bring upon lesser subdue fowl male signs.</p>
+          </div>
+          <div class="col-12 col-lg-6 my-4 gy-4">
+            <div class="content d-flex py-3">
+              <div class="div iocn1 text-light">
+                <p data-aos="fade-up" data-aos-duration="1000"><i
+                    class="fas fa-football-ball rounded-circle fs-1 me-4 border p-3 bg-blue"></i></p>
+              </div>
+              <div class="content1">
+                <h3 class="text-blue fw-bold" data-aos="fade-up" data-aos-duration="1000">Inter School Sports</h3>
+                <p class="text-paragraph" data-aos="fade-up" data-aos-duration="2000">The words you use in your written
+                  communica speak volumes.</p>
+              </div>
+            </div>
+            <div class="content d-flex py-3">
+              <div class="div iocn2 text-light">
+                <p data-aos="fade-up" data-aos-duration="1000"><i
+                    class="fas fa-shield-virus rounded-circle fs-1 me-4 border p-3 bg-yellow"></i></p>
+              </div>
+              <div class="content2">
+                <h3 class="text-yellow fw-bold" data-aos="fade-up" data-aos-duration="1000">Friendly Environment</h3>
+                <p class="text-paragraph" data-aos="fade-up" data-aos-duration="2000">The words you use in your written
+                  communica speak volumes.</p>
+              </div>
+            </div>
+            <div class="content d-flex py-3">
+              <div class="div iocn3 text-light">
+                <p data-aos="fade-up" data-aos-duration="1000"><i
+                    class="fas fa-film rounded-circle fs-1 me-4 border p-3 bg-info"></i></p>
+              </div>
+              <div class="content3">
+                <h3 class="text-info fw-bold" data-aos="fade-up" data-aos-duration="1000">Multimedia Class</h3>
+                <p class="text-paragraph" data-aos="fade-up" data-aos-duration="2000">The words you use in your written
+                  communica speak volumes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4 align-items-center text-center">
+            <figure class="snip1554">
+              <img src="Images/about2.png" alt="Image not found" class="img-fluid">
+              <figcaption>
+                <h3 data-aos="fade-up" data-aos-duration="2000" class="disply-1 fw-bold text-light">Welcome To
+                  Kindergarten</h3>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of welcome section-->
+
+    <section id="classes">
+      <div class="container px-sm-5">
+        <div class="row d-flex justify-content-center py-5 position-relative" id="classesAdmission">
+          <div class="col-12 col-md-10 text-center">
+            <h1 class="my-3 pt-5 text-purple fw-bold" data-aos="fade-down" data-aos-duration="1000">Classes We Offer
+            </h1>
+            <p class="fs-5 text-purple pb-4" data-aos="fade-up" data-aos-duration="2000">Our set he for firmament
+              morning sixth subdue today the darkness creeping
+              gathered divide our let god
+              moving today. Moving in fourth air night bring upon lesser subdue.</p>
+          </div>
+          <div class="col-12 my-3">
+            <div class="owl-carousel owl-theme my-2">
+              <div class="item my-4">
+                <div class="card rounded-5">
+                  <img src="Images/class-img1.png" class="card-img-top img-fluid" alt="Image not found">
+                  <div class="card-body">
+                    <h5 class="card-title text-purple fw-bold">Intelligent
+                      Challenge</h5>
+                    <p class="card-text">The words you see in your written
+                      communication speak volumes.</p>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-items-center py-2 rounded-bottom text-center">
+                    <div class="col-4">
+                      <h5 class="text-violet fw-bold">3-5</h5>
+                      <p>Age Group</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-yellow fw-bold">30</h5>
+                      <p>Classes</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-info fw-bold">10/h</h5>
+                      <p>Class Price</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item my-4">
+                <div class="card rounded-5 position-relative">
+                  <img src="Images/class-img2.png" class="card-img-top img-fluid" alt="Image not found">
+                  <div class="card-body">
+                    <h5 class="card-title text-purple fw-bold">Intelligent
+                      Challenge</h5>
+                    <p class="card-text">The words you see in your written
+                      communication speak volumes.</p>
+                  </div>
+                  <div class="data position-absolute top-0 start-0">
+                    <a href="#"
+                      class="bg-danger rounded-pill text-light text-decoration-none mx-2 p-2 px-3 fw-bold">Admission
+                      Closed</a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-items-center py-2 rounded-bottom text-center">
+                    <div class="col-4">
+                      <h5 class="text-violet fw-bold">3-5</h5>
+                      <p>Age Group</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-yellow fw-bold">30</h5>
+                      <p>Classes</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-info fw-bold">10/h</h5>
+                      <p>Class Price</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item my-4">
+                <div class="card rounded-5 position-relative">
+                  <img src="Images/class-img3.png" class="card-img-top img-fluid" alt="Image not found">
+                  <div class="card-body">
+                    <h5 class="card-title text-purple fw-bold">Intelligent
+                      Challenge</h5>
+                    <p class="card-text">The words you see in your written
+                      communication speak volumes.</p>
+                  </div>
+                  <div class="data position-absolute top-0 start-0">
+                    <a href="#"
+                      class="bg-danger rounded-pill text-light text-decoration-none mx-2 p-2 px-3 fw-bold">Admission
+                      Closed</a>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-items-center py-2 rounded-bottom text-center">
+                    <div class="col-4">
+                      <h5 class="text-violet fw-bold">3-5</h5>
+                      <p>Age Group</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-yellow fw-bold">30</h5>
+                      <p>Classes</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-info fw-bold">10/h</h5>
+                      <p>Class Price</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item my-4">
+                <div class="card rounded-5">
+                  <img src="Images/pexels-cottonbro-studio-3662667.jpg" class="card-img-top img-fluid rounded-top">
+                  <div class="card-body">
+                    <h5 class="card-title text-purple fw-bold">Intelligent
+                      Challenge</h5>
+                    <p class="card-text">The words you see in your written
+                      communication speak volumes.</p>
+                  </div>
+                  <div
+                    class="card-footer d-flex justify-content-center align-items-center py-2 rounded-bottom text-center">
+                    <div class="col-4">
+                      <h5 class="text-violet fw-bold">3-5</h5>
+                      <p>Age Group</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-yellow fw-bold">30</h5>
+                      <p>Classes</p>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-info fw-bold">10/h</h5>
+                      <p>Class Price</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="wrap">
+              <button class="button-1 z-1" data-aos="zoom-in" data-aos-duration="3000">More Classes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of classes-->
+
+
+
+    <section id="banner">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center" id="event">
+          <div
+            class="col-11 col-md-8 col-lg-6 col-xl-4 my-5 px-3 text-center rounded-5 bg-light py-5 justify-content-center d-flex flex-wrap">
+            <p class="text-violet fw-bold fs-4 col-12" data-aos="fade-down" data-aos-duration="1000">01 May 2023</p>
+            <h1 class="text-purple fw-bold" data-aos="fade-down" data-aos-duration="2000">Drawing Event</h1>
+            <p class="lead text-purple" data-aos="fade-down" data-aos-duration="2500">Our set he for firmament morning
+              sixth subdue today the darkness creeping
+              gathered
+              divide our let god moving today moving in fourth. </p>
+            <button class="btn third" data-aos="zoom-in" data-aos-duration="2500" onclick="alertme()">View Event</button>
+            <p class="col-12">
+            <div class="col-2 bg-bisque mx-2 p-2 rounded-3 text-purple" data-aos="zoom-in" data-aos-duration="2500">
+              <span class="fw-bold fs-2" data-aos="zoom-in" data-aos-duration="1500" id="days"> </span> <br> Days
+            </div>
+            <div class="col-2 bg-bisque mx-2 p-2 rounded-3 text-purple"  data-aos="zoom-in" data-aos-duration="2500">
+              <span class="fw-bold fs-2" data-aos="zoom-in" data-aos-duration="1500" id="hrs"> </span> <br> Hrs
+            </div>
+            <div class="col-2 bg-bisque mx-2 p-2 rounded-3 text-purple"  data-aos="zoom-in" data-aos-duration="2500">
+              <span class="fw-bold fs-2" data-aos="zoom-in" data-aos-duration="1500" id="min"> </span> <br> Mins
+            </div>
+            <div class="col-2 bg-bisque mx-2 p-2 rounded-3 text-purple"  data-aos="zoom-in" data-aos-duration="2500">
+              <span class="fw-bold fs-2" data-aos="zoom-in" data-aos-duration="1500" id="sec"> </span> <br> Secs
+            </div>
+            </p>
+          </div>
+          <div class="col-12">
+
+          </div>
+        </div>
+      </div>
+    </section><!--end of event section-->
+
+    <section>
+      <div class="container">
+        <div class="row my-5 gy-4 px-sm-4" id="teacher-owl">
+          <div class="col-12 text-center">
+            <h1 class="text-purple fw-bold" data-aos="fade-down" data-aos-duration="1000">Expert Teachers</h1>
+            <p class="fs-5 text-purple" data-aos="fade-down" data-aos-duration="2000">Our set he for firmament morning
+              sixth subdue today the darkness creeping
+              gathered
+              divide our let god moving today. Moving in fourth air night bring upon lesser subdue.</p>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card border-0">
+                  <div class="box13">
+                    <img class="pic-1 rounded-5 card-img-top img-fluid p-2" src="Images/team1.png"
+                      alt="image not found">
+                    <div class="box-content">
+                      <h3 class="title">Mr. Jacson Clay</h3>
+                      <span class="post">Sports Instructor</span>
+                    </div>
+                  </div>
+                  <div class="card-body text-purple text-center">
+                    <h5 class="card-title fw-bold fs-4">Mr. Jacson Clay</h5>
+                    <p class="card-text fs-5">Sports
+                      Instructor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card border-0">
+                  <div class="box13">
+                    <img class="pic-1 rounded-5 card-img-top img-fluid p-2" src="Images/team2.png"
+                      alt="image not found">
+                    <div class="box-content">
+                      <h3 class="title">Mr. Albert Saint</h3>
+                      <span class="post">Activity Instructor</span>
+                    </div>
+                  </div>
+                  <div class="card-body text-purple text-center">
+                    <h5 class="card-title fw-bold fs-4">Mr. Albert Saint
+                    </h5>
+                    <p class="card-text fs-5">Activity
+                      Instructor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card border-0">
+                  <div class="box13">
+                    <img class="pic-1 rounded-5 card-img-top img-fluid p-2" src="Images/team3.png"
+                      alt="image not found">
+                    <div class="box-content">
+                      <h3 class="title">Mrs. Cloe Walter</h3>
+                      <span class="post">Yoga Instructor</span>
+                    </div>
+                  </div>
+                  <div class="card-body text-purple text-center">
+                    <h5 class="card-title fw-bold fs-4">Mrs. Cloe Walter
+                    </h5>
+                    <p class="card-text fs-5">Yoga
+                      Instructor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card border-0">
+                  <div class="box13">
+                    <img class="pic-1 rounded-5 card-img-top img-fluid p-2" src="Images/team2.png"
+                      alt="image not found">
+                    <div class="box-content">
+                      <h3 class="title">Mr. Rowan Devin</h3>
+                      <span class="post">Sports Instructor</span>
+                    </div>
+                  </div>
+                  <div class="card-body text-purple text-center">
+                    <h5 class="card-title fw-bold fs-4">Mr. Rowan Devin</h5>
+                    <p class="card-text fs-5">Sports
+                      Instructor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of  team-->
+
+    <section id="testimonial">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 text-center d-flex justify-content-center flex-wrap align-items-center">
+            <p data-aos="zoom-in" data-aos-duration="1500"><i
+                class="fas fa-quote-left bg-violet rounded-circle fs-1 text-light p-4 fs-5"></i></p>
+            <p class="text-purple my-5 px-md-5 lead fw-bold" data-aos="fade-up" data-aos-duration="1500">"Supercharge
+              your WordPress hosting with detailed website
+              analytics, marketing tools.
+              Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here
+              to
+              help you succeed!</p>
+            <div class="content1 d-flex col-10 col-sm-8 col-md-8 col-lg-6 col-xl-5 align-items-center">
+              <div class="img col-4">
+                <figure class="snip1566"><img src="Images/pexels-yaroslav-shuraev-9489771.jpg" alt="Image not found"
+                    class="img-fluid rounded-circle" data-aos="zoom-in" data-aos-duration="1500">
+                  <figcaption><i class="ion-android-star-outline"></i></figcaption>
+                  <a href="#"></a>
+                </figure>
+              </div>
+              <div class="content col-8 ps-4">
+                <h3 class="fw-bold text-violet" data-aos="fade-up" data-aos-duration="1000">Jacson Miller</h3>
+                <p id="recents" class="text-purple" data-aos="fade-up" data-aos-duration="1500">Designer @Kindergarten
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of testimonial-->
+
+
+    <section>
+      <div class="container-fluid pt-3 mygallery">
+        <div class="row" id="gallery">
+          <div class="col-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra1.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra2.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra3.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra4.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra1.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="item">
+                <figure class="snip1210">
+                  <img src="Images/instra2.png" alt="Image not found" class="img-fluid">
+                  <figcaption>
+                    <a href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+                    <a href="#"><span><i class="fas fa-award"></i></span></a>
+                    <a href="#"><span><i class="fas fa-running"></i></span></a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+  </main> <!--end of main section-->
+
+
+  <footer class="bg-purple">
+    <div class="container">
+      <div class="row text-light py-5">
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="images/logo.png" alt="Image not found" class="img-fluid py-4" data-aos="fade-down"
+            data-aos-duration="1500">
+          <p class="fs-5 " data-aos="fade-up" data-aos-duration="1700">Users and submit their own items. You can create
+            different packages and by connecting with
+            your PayPal or Stripe account charge users for registration.</p>
+          <div class="footicons">
+            <div class="icon-container my-4" data-aos="fade-up" data-aos-duration="2000">
+              <div class="icon icon-fill"><i class="fab fa-twitter"></i></div>
+              <div class="icon icon-enter"><i class="fab fa-facebook"></i></div>
+              <div class="icon icon-expand"><i class="fab fa-pinterest"></i></div>
+              <div class="icon icon-rotate"><i class="fab fa-linkedin-in"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 py-4">
+          <h3 class="fw-bold" data-aos="fade-down" data-aos-duration="1500">Quick Links</h3>
+          <ul class="my-4">
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1000"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Classes</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1300"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Join with us</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1600"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">About</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1900"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Blog</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="2200"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Events</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 py-4">
+          <h3 class="fw-bold" data-aos="fade-down" data-aos-duration="1500">About Us</h3>
+          <ul class="my-4">
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1000"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Our Team</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1300"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Privacy Policy</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1600"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Testimonial</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="1900"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">Programmimg</a></li>
+            <li class="my-3" data-aos="fade-up" data-aos-duration="2200"><a href="#"
+                class="text-decoration-none text-light p-2 fs-5">User Stories</a></li>
+          </ul>
+        </div>
+        <div class="col-12 mt-5 text-center">
+          <h4>Copyright ©2023 All rights reserved | This template is made with <i class="far fa-heart text-yellow"></i>
+            by <span class="text-yellow"> <u> Pravin Sanap</u></span></h4>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--end of footer-->
+
+<!-- ///// end of HTML Body ///// -->
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="../1-Owl Carousel Plugin/js/owl.carousel.js"></script>
+
+  <script type="text/javascript">
+    //gallery carousel ///
+    $(' #gallery .owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      responsive: {
+        0: {
+          items: 2
+        },
+        576: {
+          items: 3
+        },
+        768: {
+          items: 4
+        },
+        992: {
+          items: 5
+        }
+      }
+    });
+
+
+    //classes carousel ////
+    $('#classesAdmission .owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: false,
+      nav: true,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1,
+          dots: true,
+          nav: false
+        },
+        596: {
+          items: 1,
+          nav: true
+        },
+        768: {
+          items: 2,
+          nav: true
+        },
+        992: {
+          items: 3,
+          nav: true
+        }
+      }
+    });
+
+    //teacher carousel starts ////
+    $('#teacher-owl .owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 1800,
+      responsive: {
+        0: {
+          items: 1,
+          dots: true,
+          nav: false
+        },
+        596: {
+          items: 1,
+          nav: true
+        },
+        768: {
+          items: 2
+        },
+        992: {
+          items: 4,
+          nav: true
+        }
+      }
+    });
+  </script>
+
+
+  <!-- ///  JS of set interval countdown timer of Event section ////// -->
+  <script>
+    var dest = new Date("may 1, 2023 10:00:00").getTime();
+    var x = setInterval(function () {
+      var now = new Date().getTime();
+      var diff = dest - now;
+      var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      console.log(days);
+      var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      console.log(hours);
+      var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      console.log(minutes);
+      var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      console.log(seconds);
+
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hrs").innerHTML = hours;
+      document.getElementById("min").innerHTML = minutes;
+      document.getElementById("sec").innerHTML = seconds;
+
+    }, 1000);
+  </script>
+
+  <script>
+    function alertme(){
+      alert("This Event Will Start Soon...")
+    }
+  </script>
+
+
+</body>
+
+</html>

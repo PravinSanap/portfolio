@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+} 
+img{
+    width: 100%;
+}
+.hero3 .hero3-content h1,  .herosection h1, .hero4 .hero4-content h1, .hero6 .content2 h1, .hero7 h1, .hero9 .hero9-content h1, .hero10 .hero10-content h1, .hero5 .hero5-content h2, .hero8 .hero8-content h2, footer h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+}
+header .taskbar{
+    display: none;
+}
+.container .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 35px;
+    align-items: center;
+    padding: 15px 20px;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px #5799db;
+}
+.container .nav .fas{
+    font-size: 25px;
+}
+.container .nav .fa-apple:hover, .container .nav .fas:hover{
+    color: #000000;
+    transition: 2s;
+}
+.herosection{
+    padding: 30px 20px;
+}
+.herosection .myimg{
+    width: 60%;
+}
+.herosection h1{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.herosection p{
+    font-size: 18px;
+}
+.herosection button{
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    padding: 10px 30px;
+    margin: 20px 0px;
+}
+.herosection button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+    transition: 2s ease;
+}
+.herosection .content2{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 5px #ff0000;
+    border-radius: 5px;
+    transition: 2s;
+}
+.herosection .content2 img{
+    width: 80%;
+    padding: 30px 0px;
+    transition: 2s;
+}
+.herosection .content2:hover img{
+    transform: scale(1.2);
+}
+.hero2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.4)), url(../Images/hero2-bg.jpeg) no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+.hero2 img{
+    width: 70%;
+}
+.hero2 .hero2bg{
+    background-color: #24232374;
+    width: 80%;
+    align-items: center;
+    margin: 0% auto;
+}
+.hero2 .hero2bg .content1{
+    text-align: center;
+    overflow: hidden;
+}
+.hero2 .hero2bg .content1 img{
+    box-shadow: 1px 1px 2px #ff0000;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.hero2 .hero2bg .content1:hover img{
+    transform: scale(1.1);
+    transition: 2s ease-in;
+    box-shadow: 1px 1px 2px #ff0000;
+}
+.hero2 .hero2bg .content2{
+    padding: 10px;
+}
+.hero2 .hero2bg .content2 ul li{
+    list-style: inside;
+    justify-content: center;
+    font-size: 12.5px;
+}
+.hero2 .hero2bg .content2 .fa-apple{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.hero2 .hero2bg .content2 .fa-apple:hover{
+    color: #ff0000;
+    transition: 2s;
+}
+.hero3{
+    width: 100%;
+    padding: 40px 20px;
+    justify-content: center;
+}
+.hero3 .hero3-content h1{
+    background-color: #e2e2e2;
+    padding: 15px 10px;
+}
+.hero3 .hero3-content h1:hover{
+    background-color: #AABBCC;
+    transition: 2s;
+}
+.hero3 .hero3-content p{
+    padding: 30px 0px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.hero3 .hero3-content button{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    padding: 10px 30px;
+}
+.hero3 .hero3-content button:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+    transition: 2s ease;
+}
+.hero3 .hero3-img{
+    text-align: center;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding: 30px 0px;
+}
+.hero3 .hero3-img img{
+    width: 70%;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 5px #ff0000;
+    border-radius: 5px;
+    transition: 2s;
+}
+.hero3 .hero3-img #pc1:hover, .hero3 .hero3-img #pc2:hover, .hero3 .hero3-img #pc3:hover, .hero3 .hero3-img #pc4:hover{
+    transform: scale(1.2);
+}
+.hero4 .hero4-img{
+    background-image: url(../Images/hero4.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 95px 0px;
+}
+.hero4 .hero4-content{
+    background-color: #4d4d4d;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+.hero4 .hero4-content .fa-apple{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.hero4 .hero4-content .fa-apple:hover{
+    color: #ff0000;
+    transition: 2s;
+}
+.hero4 .hero4-content h1{
+    font-size: 28px;
+}
+.hero4 .hero4-content p{
+    line-height: 25px;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.hero4 .hero4-content button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.hero4 .hero4-content button:hover{
+    background-color: #ffffff;
+    color: #4d4d4d;
+    transition: 2s ease;
+}
+.hero4{
+    overflow: hidden;
+}
+.hero5 .hero5-content{
+    padding: 30px 20px;
+    color: #4d4d4d;
+}
+.hero5 .hero5-content .fa-apple{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.hero5 .hero5-content .fa-apple:hover{
+    color: #ff0000;
+    transition: 2s;
+}
+.hero5 .hero5-content h2{
+    font-size: 25px;
+}
+.hero5 .hero5-content p{
+    line-height: 25px;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.hero5 .hero5-content button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    background-color: transparent;
+}
+.hero5 .hero5-content button:hover{
+    color: #ffffff;
+    background-color: #4d4d4d;
+    transition: 2s ease;
+}
+.hero5 .hero5-bg{
+    background-image: url(../Images/hero5.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 190px 0px;
+}  
+.hero6{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    /* padding: 50px 0px; */
+}
+.hero6 .content1{
+    padding-bottom: 30px;
+}
+.hero6 .content2{
+    margin-top: -5px;
+}
+.hero6 .content2 h1{
+    padding: 10px 20px;
+    font-size: 28px;
+}
+.hero6 .content2 p{
+    padding: 10px 20px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.hero6 .content2 button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.hero6 .content2 button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 2s ease;
+}
+.hero7{
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+}
+.hero7 h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.hero7 p{
+    padding: 10px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.hero7 .hero7-img{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.hero7 .hero7-img img{
+    width: 70%;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 5px #ff0000;
+    border-radius: 5px;
+    transition: 2s;
+}
+.hero7 .hero7-img img:hover{
+    transform: scale(1.2);
+}
+.hero8 .hero8-img{
+    background-image: url(../Images/hero8.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 155px 0px;
+}
+.hero8 .hero8-content{
+    padding: 30px 20px;
+    /* background-color: #4d4d4d; */
+    background-image: url(../Images/hero4&8-bg.jpeg);
+    color: #ffffff;
+}
+.hero8 .hero8-content .fa-apple{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.hero8 .hero8-content .fa-apple:hover{
+    color: #ff0000;
+    transition: 2s;
+}
+.hero8 .hero8-content h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.hero8 .hero8-content p{
+    padding: 10px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.hero8 .hero8-content button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+.hero8 .hero8-content button:hover{
+    background-color: #ffffff;
+    color: #4d4d4d;
+    transition: 2s ease;
+}
+.hero9{
+    padding: 20px 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.hero9 .hero9-content h1{
+    font-weight: 700;
+    background-color: #e2e2e2;
+    padding: 15px 10px;
+}
+.hero9 .hero9-content h1:hover{
+    background-color: #AABBCC;
+    transition: 2s;
+}
+.hero9 .hero9-content p{
+    padding: 20px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.hero9 .hero9-content button{
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+.hero9 .hero9-content button:hover{
+    color: #ff0000;
+    background-color: #ffffff;
+    transition: 2s ease;
+}
+.hero9 .hero9-img{
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+.hero9 .hero9-img img{
+    width: 70%;
+    margin: 30px 0px;
+    box-shadow: 2px 2px 5px #ff0000;
+    border-radius: 5px;
+    transition: 2s;
+    padding: 20px 0px;
+}
+.hero9 .hero9-img #pc6:hover, .hero9 .hero9-img #pc7:hover, .hero9 .hero9-img #pc8:hover, .hero9 .hero9-img #pc9:hover{
+    transform: scale(1.2);
+}
+.hero10{
+    padding: 0px 20px;
+    background: linear-gradient(rgba(64,64,64,0.2), rgba(64,64,64,0.2)), url(../Images/hero10-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
+}
+.hero10 .hero10-content{
+    background-color: #32323262;
+    padding: 20px;
+    width: 80%;
+}
+.hero10 .hero10-content:hover{
+    background-color: #4d4d4d;
+    transition: 1s;
+    box-shadow: 1px 1px 3px #ffffff;
+}
+.hero10 .hero10-content img{
+    width: 70%;
+}
+.hero10 .hero10-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.hero10 .hero10-content p{
+    padding: 10px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.hero10 .hero10-content button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+.hero10 .hero10-content button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 2s ease;
+}
+footer{
+    background-color: #4d4d4d;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+footer p{
+    padding: 20px 0px;
+}
+footer:hover{
+    background-color: #7e7c7c;
+    transition: 2s ease;
+}
+@media only screen and (min-width:768px){
+    .container .herosection{
+        display: flex;
+        justify-content: space-between;
+    }
+    .herosection .content1, .herosection .content2{
+        width: 50%;
+    }
+    .hero2 .hero2bg{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: transparent;
+    }
+    .hero2 .hero2bg .content1{
+        width: 60%;
+    }
+    .hero2 .hero2bg .content2{
+        width: 40%;
+    }
+    .hero3 .hero3-img{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .hero3 .hero3-img img{
+        width: 34%;
+    }
+    .hero4{
+        display: flex;
+        width: 100%;
+    }
+    .hero4 .hero4-img{
+        width: 60%;
+        background-position: right;
+    }
+    .hero4 .hero4-content{
+        width: 40%;
+    }
+    .hero5{
+        display: flex;
+        width: 100%;
+    }
+    .hero5 .hero5-content{
+        width: 40%;
+    }
+    .hero5 .hero5-bg{
+        width: 60%;
+        background-position: left;
+    }
+    .hero6 div img{
+        width: 40%;
+    }
+    .hero7 .hero7-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hero7 .hero7-img img{
+        width: 30%;
+    }
+    .hero8{
+        display: flex;
+    }
+    .hero8 .hero8-img{
+        width: 55%;
+    }
+    .hero8 .hero8-content{
+        width: 45%;
+    }
+    .hero9{
+        text-align: center;
+        width: 100%;
+    }
+    .hero9 .hero9-content p{
+        font-size: 20px;
+        text-align: left;
+    }
+    .hero9 .hero9-img{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .hero9 .hero9-img img{
+        width: 34%;
+    }
+    .hero10 .hero10-content{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:992px){
+    .herosection .content1 h1{
+        font-size: 60px;
+    }
+    header .taskbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header .taskbar ul{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        position: absolute;
+        top: 17px;
+        right: 20px;
+        z-index: 1000;
+        font-size: 20px;
+        color: #ffffff;
+        position: fixed;
+    }
+    header .taskbar .fa-user{
+        padding-top: 3px;
+    }
+    .container .nav .fas{
+        display: none;
+    }
+    header .taskbar ul li{
+        list-style-type: none;
+    }
+    header .taskbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    header .taskbar ul li:hover{
+        border-bottom: 3px solid #ffffff;
+    }
+    .herosection .content1 button{
+        font-size: 18px;
+    }
+    .hero2 .hero2bg .content1{
+        width: 50%;
+    }
+    .hero2 .hero2bg .content1 button{
+        font-size: 18px;
+    }
+    .hero2 .hero2bg .content2 ul li{
+        font-size: 20px;
+    }
+    .hero2 .hero2bg .content2 .fa-apple{
+        font-size: 50px;
+    }
+    .hero2 .hero2bg .content2 h2{
+        font-size: 36px;
+    }
+    .hero3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .hero3 .hero3-content{
+        width: 40%;
+    }
+    .hero3 .hero3-content p{
+        font-size: 20px;
+        padding-right: 40px;
+        line-height: 30px;
+    }
+    .hero3 .hero3-img{
+        width: 50%;
+    }
+    .hero3 .hero3-content button{
+        font-size: 18px;
+    }
+    .hero4 .hero4-img{
+        width: 50%;
+    }
+    .hero4 .hero4-content{
+        width: 50%;
+        padding: 50px 0px;
+        align-items: center;
+    }
+    .hero4 .hero4-content .fa-apple{
+        font-size: 50px;
+    }
+    .hero4 .hero4-content h1{
+        font-size: 36px;
+    }
+    .hero4 .hero4-content p{
+        font-size: 20px;
+        padding-right: 40px;
+        line-height: 30px;
+    }
+    .hero5 .hero5-bg{
+        padding: 250px 0px;
+    }
+    .hero5{
+        align-items: center;
+    }
+    .hero6{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .hero6 .content1{
+        width: 50%;
+    }
+    .hero6 .content1 img{
+        width: 80%;
+    }
+    .hero6 .content2{
+        width: 50%;
+    }
+    .hero9{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        text-align: left;
+        align-items: center;
+    }
+    .hero9 .hero9-content{
+        width: 40%;
+    }
+    .hero9 .hero9-content p{
+        font-size: 20px;
+        padding-right: 40px;
+        line-height: 30px;
+    }
+    .hero9 .hero9-content button{
+        font-size: 18px;
+    }
+    .hero9 .hero9-img{
+        width: 40%;
+    }
+    .hero10 .hero10-content{
+        width: 40%;
+        margin: 30px 0px;
+        padding: 20px;
+    }
+}
+@media only screen and  (min-width:1200px){
+    .herosection .content1{
+        width: 47%;
+    }
+    .hero2 .content1 img{
+        width: 55%;
+    }
+    .hero4 .hero4-content{
+        padding-left: 30px;
+        margin-left: -1px;
+    }
+    .hero5 .hero5-bg{
+        padding: 330px 0px;
+    }
+    .hero5 .hero5-content .fa-apple{
+        font-size: 40px;
+    }
+    .hero5 .hero5-content h2{
+        font-size: 36px;
+    }
+    .hero5 .hero5-content p{
+        font-size: 20px;
+    }
+    .hero8 .hero8-content{
+        padding: 90px 20px;
+    }
+}
